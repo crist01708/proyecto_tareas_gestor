@@ -1,0 +1,53 @@
+/* Celulares */
+@media (max-width: 480px) {
+    
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    
+}
+
+/* Laptops */
+@media (max-width: 1024px) {
+    
+}
+@media (max-width: 768px) {
+    .contenedor {
+        flex-direction: column;
+    }
+}
+@media (max-width: 480px) {
+    .tarea {
+        width: 100%;
+        font-size: 14px;
+    }
+}
+@media (max-width: 480px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    input, button {
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    button {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+/* Base = celular */
+.tarea {
+    font-size: 14px;
+}
+
+/* Pantallas más grandes */
+@media (min-width: 768px) {
+    .tarea {
+        font-size: 16px;
+    }
+}
